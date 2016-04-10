@@ -2,8 +2,8 @@ ffmpeg = require('fluent-ffmpeg');
 
 var msg = {};
 msg.ffmpeg = {};
-msg.ffmpeg.audio = "../audio.mp3";
-msg.ffmpeg.image = "../images/scorpio.jpg";
+msg.ffmpeg.audio = "audio.mp3";
+msg.ffmpeg.image = "images/scorpio.jpg";
 msg.ffmpeg.endimage = "end.jpg";
 msg.horoscope = "Here is some crazy text that will be used as horoscope. Second phrase. I will not die soon";
 var phrases = msg.horoscope.split(". ");
