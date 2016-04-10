@@ -21,7 +21,7 @@ if(!msg.ffmpeg.horoscope){
     return;
 }
 
-var phrases = msg.horoscope.split(". ");
+var phrases = msg.ffmpeg.horoscope.split(". ");
 var phraseDuration = 7;
 var openingFadeDuration = 3;
 var part1Duration = (phrases.length * phraseDuration) + openingFadeDuration;
