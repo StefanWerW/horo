@@ -86,7 +86,7 @@ phrases.forEach(function(e,i){
     var filter = {
         filter: 'drawtext',
         options: {
-            fontfile: '../font1.ttf',
+            fontfile: 'font.ttf',
             text: e,
             fontsize: 50,
             x:"(w-text_w)/2",
